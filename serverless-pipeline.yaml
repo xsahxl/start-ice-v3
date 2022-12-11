@@ -1,7 +1,5 @@
 steps:
-  - run: npm install create-ice -g
-  - run: npm install @ice/app -g
-  - run: npm install
+  - run: npm install --registry=https://registry.npmmirror.com
   - run: ls -la /tmp/code/node_modules/.bin
   - run: ls -la /tmp/code/node_modules/@ice
   - run: npm run build
