@@ -1,7 +1,8 @@
 steps:
   - run: npm install create-ice -g
+  - run: npm install @ice/app -g
   - run: npm install
   - run: ls -la /tmp/code/node_modules/.bin
   - run: ls -la /tmp/code/node_modules/@ice
-  - run: cat /tmp/code/node_modules/@ice/app/bin/ice-cli.mjs
+  - run: ls -la  /tmp/code/node_modules/@ice/app/bin
   - run: npm run build
