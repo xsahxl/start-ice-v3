@@ -4,5 +4,4 @@ steps:
   - run: npm install
   - run: ls -la /tmp/code/node_modules/.bin
   - run: ls -la /tmp/code/node_modules/@ice
-  - run: ls -la  /tmp/code/node_modules/@ice/app/bin
   - run: npm run build
