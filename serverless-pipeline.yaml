@@ -1,5 +1,5 @@
 steps:
-  - run: npm install --registry=https://registry.npmmirror.com
+  - run: npm install
   - run: ls -la /tmp/code/node_modules/.bin
   - run: ls -la /tmp/code/node_modules/@ice
   - run: npm run build
